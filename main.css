@@ -1,0 +1,76 @@
+/* MOBILE SYLE */
+
+nav {
+	font-weight: bold;
+	width: 100%;
+	height: 3rem;
+	border-bottom: 1px solid gray;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: orange;
+}
+a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: sans-serif;
+	margin: 10px;
+	text-align: center;
+	color: rgb(100, 100, 100);
+	display: none;
+}
+
+#logo {
+	font-weight: bold;
+	font-size: 16pt;
+	margin: 8px 100px 8px 8px;
+	margin-right: 100px;
+	font-family: arial;
+	color: white;
+	display: inline-block;
+}
+
+.menu-icon {
+	height: 30px;
+	margin: 0 8px 0 8px;
+	display: inline-block;
+
+}
+
+#main {
+margin-top: 20%;
+}
+
+.bar1, .bar2, .bar3 { 
+width: 35px;
+height: 5px;
+margin: 2px;
+background-color: red;
+margin: 6px 0;
+}
+
+.open .bar1 {
+-webkit-transform: rotate(-45deg) translate(-9px, 6px);
+transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.open .bar2 {
+opacity: 0;
+}
+
+.open .bar3 {
+-webkit-transform: rotate(45deg) translate(-8px, -8px);
+transform: rotate(45deg) translate(-8px, -8px);
+}
+
+
+/* DESKTOP STYLE */
+@media (min-width: 500px){
+.menu-icon {
+	display: none;
+}
+a {
+	display: inline-block;
+}
+
+}
